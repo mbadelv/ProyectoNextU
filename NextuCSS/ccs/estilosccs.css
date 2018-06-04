@@ -1,0 +1,193 @@
+header {
+    background-color: #5b7989;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+    color: white;
+    box-shadow: 2px 2px 2px #02010a;
+    height: 60px;
+    }
+    body{
+    
+    background-color: #02010a;
+    }
+    img{
+    box-shadow: 2px 2px 2px #02010a;
+    }
+    
+    @font-face {
+    font-family: "Dancing Script";
+    src: url(../lactosa/Lactosa\ DEMO.otf) format("truetype");
+    }
+    *{
+    font-family: "Dancing Script";
+    }
+    
+    nav{
+    margin-left: 80%;
+    margin-top: -4%;
+    
+    }
+    a{
+    
+    color: white;
+    }
+    div {
+    background-color: #82c3a6;
+    text-align: center;
+    }
+    .secundarias{
+    display: flex;
+    flex-direction: row;
+    }
+    
+    img{
+    width: 70%;
+    }
+    .a1{
+    text-align: left;
+    background-color: #d5c75f;
+    
+    }
+    .a2{
+    text-align: right;
+    background-color: #d5c75f;
+    
+    }
+    
+    .a1 > img {
+    border-radius: 1px;
+    padding: 20px;
+    padding-right: 30px;
+    }
+    
+    
+    .a2 > img {
+    border-radius: 1px;
+    padding: 20px;
+    padding-right: 30px;
+    } 
+    .imagen1{
+    padding: 10px;
+    border-radius : 1px;
+    }
+    
+    h2{
+    padding: 10px;
+    }
+    .a1 > img:hover{
+    transform: rotateZ(10deg);
+    box-shadow: 2px 2px 2px #82c3a6;
+    
+    }
+    
+    .a2 > img:hover{
+    transform: translate(20px, -5px);
+    box-shadow: 2px 2px 2px #82c3a6;
+    
+    }
+    @media screen and (min-width:900px) {
+    .imagen1{
+    width: 60%;
+    }
+    .a1{
+    width: 50%;
+    }
+    .a2{
+    width: 50%;
+    }
+    
+    footer{display:flex; flex-direction:row; justify-content:space-around;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #C6d5c5;
+    
+    
+    width: 100%;
+    
+    }
+    footer > div {background-color: #C6d5c5;
+    width: 25%;
+    text-align: center;
+    }
+    footer > div > img{
+    width: 5%;
+    }
+    } 
+    @media screen and (max-width:899px){
+    header{
+    width: 100%;
+    height: 20%;
+    }
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    }
+    
+    nav{
+    display: inline-flex;
+    margin-left: 25%;
+    }
+    
+    .contenedor{
+    width: 100%;
+    
+    }
+    
+    .contenedor > img{
+    width: 90%;
+    }
+    
+    header{
+    width: 100%;
+    }
+    
+    .imagen1{
+    width: 90%;
+    display:flex;
+    flex-direction:column;
+    }
+    
+    .a1{
+    width: 100%;
+    text-align: center;
+    }
+    
+    .a2{
+    width: 100%;
+    text-align: center;
+    }
+    
+    .a1 > img{
+    width: 90%;
+    display:flex;
+    flex-direction:column;
+    }
+    .a2 > img{
+    width: 85%;
+    display:flex;
+    flex-direction:column;
+    }
+    
+    .secundarias{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    
+    footer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #C6d5c5;
+    
+    
+    width: 100%;
+    }
+    footer > div {background-color: #C6d5c5;
+                  border-radius: 0px 0px 10px 10px;
+                  text-align: center;
+    }
+    footer > div > img{
+    width: 5%;
+    }
+    }

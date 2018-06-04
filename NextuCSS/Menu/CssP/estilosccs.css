@@ -1,0 +1,182 @@
+header {
+    background-color: #5b7989;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+    color: white;
+    box-shadow: 2px 2px 2px #02010a;
+    height: 60px;
+}
+a{
+
+    color: white;
+    }
+
+img{
+    box-shadow: 2px 2px 2px #02010a;
+}
+
+@font-face {
+    font-family: "Dancing Script";
+    src: url(../lactosa/Lactosa\ DEMO.otf) format("truetype");
+    }
+    *{
+        font-family: "Dancing Script";
+        }
+
+ nav{
+     margin-left: 80%;
+     margin-top: -4%;
+    
+ }
+body{
+    background-color: #02010a;
+    
+}
+.galeria {
+    height:  100%;
+}
+
+ @media screen and (min-width:900px) {
+   
+    footer{display:flex; flex-direction:row; justify-content:space-around;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #C6d5c5;
+        
+        
+        width: 100%;
+        
+        }
+    footer > div {background-color: #C6d5c5;
+        width: 25%;
+        text-align: center;
+        }
+     footer > div > img{
+        width: 5%;
+        }
+    
+   
+    img{
+        width: 100%;
+    }
+    .galeria{
+        display: flex;
+        flex-direction: row;
+        }
+    .galeria2{
+            display: flex;
+            flex-direction: row;
+            }
+    .a1{border-radius: 1px;
+        padding: 20px;
+        padding-right: 30px;
+        text-align: left;
+        background-color: #d5c75f;
+        filter: blur(10px);       
+                }
+    .a2{border-radius: 1px;
+        padding: 20px;
+        padding-right: 30px;
+        text-align: right;
+        background-color: #d5c75f;
+        filter: grayscale(100%);
+                                }
+    .a3{border-radius: 1px;
+        padding: 20px;
+        padding-right: 30px;
+        text-align: center;
+        background-color: #d5c75f;
+        filter: sepia(90%);
+                                     }
+    .a4{border-radius: 1px;
+        padding: 20px;
+        padding-right: 30px;
+        background-color: #d5c75f;
+        filter: grayscale(100%);
+                                        }  
+     .a5{border-radius: 1px;
+        padding: 20px;
+        padding-right: 30px;
+        background-color: #d5c75f;
+                                         }
+    .a6{
+        border-radius: 1px;
+        padding: 20px;
+        padding-right: 30px;
+        background-color: #d5c75f;
+        filter: grayscale(100%);
+        
+                                        }                        
+              
+            }
+ @media screen and (max-width:899px){
+    header{
+            width: 100%;
+            height: 20%;
+                }
+    h1 {
+         font-size: 25px;
+         text-align: center;
+                }
+                
+    nav{
+        display: inline-flex;
+        margin-left: 25%;
+                }
+    .a1{
+        filter: blur(10px);
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+                    }
+                    
+    .a2{
+        filter: grayscale(100%);
+         width: 100%;
+         text-align: center;
+         padding-bottom: 20px;
+                    }
+    .a3{
+        filter: grayscale(100%);
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+                        }
+                        
+    .a4{
+
+        filter: grayscale(100%);
+         width: 100%;
+         text-align: center;
+         padding-bottom: 20px;
+                        }
+    .a5{
+         width: 100%;
+         text-align: center;
+         padding-bottom: 20px;
+                            }
+                            
+    .a6{
+        filter: grayscale(100%);
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+                            }
+    footer{
+            display: flex;
+            flex-direction: column;
+            border-radius: 0px 0px 10px 10px;
+            background-color: #C6d5c5;
+                                    
+            width: 100%;
+                                }
+    footer > div {background-color: #C6d5c5;
+                  text-align: center;
+                  border-radius: 0px 0px 10px 10px;
+
+                                }
+     footer > div > img{
+                         width: 5%;
+                                }
+
+            }
